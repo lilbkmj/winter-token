@@ -5,7 +5,7 @@
 }
 .head a{
     text-align: right;
-    color: #ff0ffd;
+    color: #0f87ff;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 20px;
@@ -16,13 +16,46 @@
     color: aqua;
 }
 .head a.active{
-    background-color:moccasin;
+    background-color:rgb(240, 237, 232);
 
 }
 .logo{
-    color: gold;
+    color: white;
     float: left;
 }
 .logo span{
-    color: orangered;
+    color: rgb(21, 0, 255);
+}
+.jam{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color:rgb(106, 0, 255) */
+}
+h2 span{
+    color: aqua;
+}
+.red{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(104, 108, 169);
+}
+.control{
+    display: inline-block;
+    padding: 20px 30px;
+    color: aquamarine;
+    background-color: rgba(101, 65, 192, 0.413);
+    border:3px solid rgb(70, 35, 230);
+    margin-top: 30px;
+    transition: 0.3 ease;
+}
+.jam{
+    background-image: url(red.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top right;
+ 
+    }
+.control:hover{
+    color: blue;
+}
+#raptor{
+   background:linear-gradient(to right, rgba(13, 152, 216, 0.413), rgba(49, 4, 161, 0.413));
 }
