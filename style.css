@@ -1,0 +1,28 @@
+.head{
+    background-color: #c0c0c0;
+    overflow: hidden;
+    text-align: right;
+}
+.head a{
+    text-align: right;
+    color: #ff0ffd;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    display:inline-block
+}
+.head a:hover{
+    background-color:orchid;
+    color: aqua;
+}
+.head a.active{
+    background-color:moccasin;
+
+}
+.logo{
+    color: gold;
+    float: left;
+}
+.logo span{
+    color: orangered;
+}
