@@ -59,3 +59,27 @@ h2 span{
 #raptor{
    background:linear-gradient(to right, rgba(13, 152, 216, 0.413), rgba(49, 4, 161, 0.413));
 }
+.icons{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left:10px;
+    display:flex;
+    gap: 13px;
+}
+.icons #github{
+    color:black;
+}
+.icons #ig{
+    color:purple;
+}
+.icons #snap{
+    color: yellow;
+}
+#apple .gold a{
+    text-decoration: none;
+    font-size:24px;
+}
+p{
+    font-family: lato ;
+}
+
