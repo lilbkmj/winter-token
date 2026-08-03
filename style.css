@@ -82,4 +82,40 @@ h2 span{
 p{
     font-family: lato ;
 }
-
+#apple .gold button{
+    border: 3px solid cadetblue;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: aqua;
+    color: white;
+}
+#apple .gold img{
+    image-postiton:top right;
+   width: 270px;
+   margin-left: 70%;
+   margin-top: -14%;
+   }
+   .Me{
+    display:flex;
+    gap: 78px;
+    font-size: 48px;
+    margin-left:460px;
+   }
+   .stuff h3{
+    text-align:center
+   }
+   .stuff h2{
+    text-align:center;
+   }
+   .stuff .Me #html{
+    color: #e90909;
+   }
+   .stuff .Me #css{
+    color: blue;
+   }
+   .stuff .Me #js{
+    color: yellow;
+   }
+   .stuff .Me #react{
+    color: cyan;
+   }
