@@ -1,8 +1,9 @@
 .head{
-    background-color: #c0c0c0;
+    background-color: rgba(13, 152, 216, 0.413);
     overflow: hidden;
     text-align: right;
 }
+
 .head a{
     text-align: right;
     color: #0f87ff;
@@ -12,7 +13,7 @@
     display:inline-block
 }
 .head a:hover{
-    background-color:orchid;
+    background-color:rgba(49, 4, 161, 0.413);
     color: aqua;
 }
 .head a.active{
@@ -26,6 +27,13 @@
 .logo span{
     color: rgb(21, 0, 255);
 }
+#raptor .jam h2{
+    color: white;
+}
+#raptor .jam .red{
+    color: white;
+    font-family:  "Great Vibes", cursive;
+}
 .jam{
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* color:rgb(106, 0, 255) */
@@ -36,6 +44,7 @@ h2 span{
 .red{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(104, 108, 169);
+    font-size: 22px;
 }
 .control{
     display: inline-block;
@@ -58,6 +67,8 @@ h2 span{
 }
 #raptor{
    background:linear-gradient(to right, rgba(13, 152, 216, 0.413), rgba(49, 4, 161, 0.413));
+   border: 3px solid white;
+   border-radius: 16px;
 }
 .icons{
     font-size: 35px;
@@ -75,6 +86,16 @@ h2 span{
 .icons #snap{
     color: yellow;
 }
+.gold{
+     background:linear-gradient(to right, rgba(128, 0, 239, 0.413), rgb(143, 6, 248));
+     border: 3px solid white;
+     border-radius: 16px;
+}
+#apple .gold p{
+    color: white;
+    font-size: 22px;
+    font-family: "Great Vibes", cursive;
+}
 #apple .gold a{
     text-decoration: none;
     font-size:24px;
@@ -83,29 +104,36 @@ p{
     font-family: lato ;
 }
 #apple .gold button{
-    border: 3px solid cadetblue;
-    border-radius: 30px;
+    border: 10px solid cadetblue;
+    border-radius: 24px;
     cursor: pointer;
     background-color: aqua;
     color: white;
 }
 #apple .gold img{
     image-postiton:top right;
-   width: 270px;
-   margin-left: 70%;
+   width: 320px;
+   height: 300px;
+   margin-left: 76%;
    margin-top: -14%;
    }
    .Me{
     display:flex;
     gap: 78px;
-    font-size: 48px;
-    margin-left:460px;
+    font-size: 24px;
+    margin-left:19%;
+    
    }
    .stuff h3{
     text-align:center
    }
-   .stuff h2{
+   .stuff h1{
     text-align:center;
+   }
+   .stuff h6{
+    margin-left: 80%;
+    margin-top: -3em;
+    margin-bottom:-1px;
    }
    .stuff .Me #html{
     color: #e90909;
@@ -119,3 +147,25 @@ p{
    .stuff .Me #react{
     color: cyan;
    }
+#project h3{
+    text-align: center;
+}
+#project h1{
+    text-align: center;
+}
+.pro{
+   
+   display: flex;
+   gap: 5%;
+    
+}
+.pro .poki{
+     transform: rotate(-90deg);
+     margin-left: 8%;
+     margin-top: -8em;
+}
+.pro .poki p{
+     transform: rotate(-180deg);
+     margin-left: 8%;
+     margin-top: -8em;
+}
