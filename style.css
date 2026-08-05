@@ -1,5 +1,8 @@
+body{ 
+    background-color: #FEE4B6;
+}
 .head{
-    background-color: rgba(13, 152, 216, 0.413);
+    background-color: ;
     overflow: hidden;
     text-align: right;
 }
@@ -25,7 +28,7 @@
     float: left;
 }
 .logo span{
-    color: rgb(21, 0, 255);
+    color: #FBC059;
 }
 #raptor .jam h2{
     color: white;
@@ -66,9 +69,9 @@ h2 span{
     color: blue;
 }
 #raptor{
-   background:linear-gradient(to right, rgba(13, 152, 216, 0.413), rgba(49, 4, 161, 0.413));
-   border: 3px solid white;
-   border-radius: 16px;
+   background:linear-gradient(to right, rgb(255, 236, 173),#F8AD2C);
+   border: 3px solid  #FEE4B6;
+   border-radius: 400px;
 }
 .icons{
     font-size: 35px;
@@ -87,9 +90,13 @@ h2 span{
     color: yellow;
 }
 .gold{
-     background:linear-gradient(to right, rgba(128, 0, 239, 0.413), rgb(143, 6, 248));
-     border: 3px solid white;
-     border-radius: 16px;
+     background:linear-gradient(to right, #FFDEA2,#FFD383);
+     border: 3px solid  #FEE4B6;
+     border-radius: 4000px;
+      padding: 1px 1px 1px 1px;
+}
+#apple .gold #green{
+    margin-left: 160px;
 }
 #apple .gold p{
     color: white;
@@ -154,18 +161,63 @@ p{
     text-align: center;
 }
 .pro{
-   
+    width: ;   
    display: flex;
-   gap: 5%;
+   gap: 3%;     
+}
+.pro img{
+    width: 500px;
+    height: 500px;
+}
+.pro:hover{
+    size: 100%;
+}
+.Au p{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.pro .Au{
+    box-shadow: 10px 10px 10px black;
+    background-color: #ffca7b;
+    border-radius: 30px;
+    background-size: 1%;
+     padding: 40px 40px 40px 40px;
+}
+.rbx p{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.pro .rbx{
+     box-shadow: 10px 10px 10px black;
+    background-color: #ffca7b;
+    border-radius: 30px;
+     padding: 40px 40px 40px 40px;
+}
+.pk p{
+    margin-top:10px;
+    font-size: 22px;
+}
+.pro .pk{
+     box-shadow: 10px 10px 10px black;
+    background-color: #ffca7b;
+    border-radius: 30px;
+    padding: 40px 40px 40px 40px;
+}
+#contacts h3{
+    text-align: center;
+}
+#contacts h1{
+    text-align: center;
+}
+#contacts .contact{
+   font-size: 22px;
     
 }
-.pro .poki{
-     transform: rotate(-90deg);
-     margin-left: 8%;
-     margin-top: -8em;
-}
-.pro .poki p{
-     transform: rotate(-180deg);
-     margin-left: 8%;
-     margin-top: -8em;
+.footer{
+    background-color: #FFDEA2;
+    text-align: center;
+    font-size: 28px;
+    padding: 1px 10px 1px 10px;
+    margin-top:150px
+
 }
