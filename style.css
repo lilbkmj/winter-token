@@ -2,7 +2,6 @@ body{
     background-color: #FEE4B6;
 }
 .head{
-    background-color: ;
     overflow: hidden;
     text-align: right;
 }
@@ -26,9 +25,20 @@ body{
 .logo{
     color: white;
     float: left;
+    margin-left: 160px;
 }
 .logo span{
     color: #FBC059;
+}
+
+#raptor{
+   background:linear-gradient(to right, rgb(255, 236, 173),#F8AD2C);
+   border: 3px solid  #FEE4B6;
+   border-radius: 400px;
+
+}
+#raptor .rap{
+    margin-left: 160px;
 }
 #raptor .jam h2{
     color: white;
@@ -40,6 +50,14 @@ body{
 .jam{
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* color:rgb(106, 0, 255) */
+}
+.hero-img{
+    width:320px;
+    max-width:40%;
+    height:auto;
+    float:right;
+    margin-right:30px;
+    margin-top:-50px;
 }
 h2 span{
     color: aqua;
@@ -58,20 +76,8 @@ h2 span{
     margin-top: 30px;
     transition: 0.3 ease;
 }
-.jam{
-    background-image: url(red.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top right;
- 
-    }
 .control:hover{
     color: blue;
-}
-#raptor{
-   background:linear-gradient(to right, rgb(255, 236, 173),#F8AD2C);
-   border: 3px solid  #FEE4B6;
-   border-radius: 400px;
 }
 .icons{
     font-size: 35px;
@@ -161,7 +167,6 @@ p{
     text-align: center;
 }
 .pro{
-    width: ;   
    display: flex;
    gap: 3%;     
 }
@@ -214,7 +219,7 @@ p{
     
 }
 .footer{
-    background-color: #FFDEA2;
+    background-color: #FFB326;
     text-align: center;
     font-size: 28px;
     padding: 1px 10px 1px 10px;

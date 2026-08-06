@@ -1,0 +1,331 @@
+@media screen and (max-width:1200px){
+
+    .logo{
+        margin-left:40px;
+    }
+
+    #raptor .rap{
+        margin-left:40px;
+    }
+
+    #apple .gold #green{
+        margin-left:40px;
+    }
+
+    .Me{
+        margin-left:5%;
+        gap:40px;
+    }
+
+    .pro img{
+        width:350px;
+        height:auto;
+    }
+
+    #apple .gold img{
+         width:25vw;
+    height:auto;
+    margin-left:60%;
+    margin-top:-10%;
+    }
+
+}
+
+
+/* ==========================================
+   TABLETS (992px)
+========================================== */
+
+@media screen and (max-width:992px){
+
+    .head{
+        text-align:center;
+    }
+
+    .logo{
+        float:none;
+        margin-left:0;
+        text-align:center;
+        margin-bottom:20px;
+    }
+
+    .head a{
+        display:inline-block;
+        padding:10px 15px;
+        font-size:18px;
+    }
+
+    #raptor{
+        border-radius:40px;
+        padding:30px;
+    }
+
+    #raptor .rap{
+        margin-left:0;
+    }
+
+    .jam{
+        background-image:none;
+    }
+
+    .icons{
+        justify-content:center;
+        margin-left:0;
+    }
+
+    #apple .gold{
+        border-radius:40px;
+        padding:30px;
+    }
+
+    #apple .gold #green{
+        margin-left:0;
+    }
+
+    #apple .gold img{
+        display:block;
+    width:260px;
+    max-width:80%;
+    height:auto;
+    margin:30px auto;
+    }
+
+    .Me{
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-left:0;
+        gap:35px;
+    }
+
+    .stuff h6{
+        margin-left:0;
+        margin-top:10px;
+        text-align:center;
+    }
+
+    .pro{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:30px;
+    }
+
+    .Au,
+    .rbx,
+    .pk{
+        width:80%;
+    }
+
+    .pro img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        gap:20px;
+        text-align:center;
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE PHONES (768px)
+========================================== */
+
+@media screen and (max-width:768px){
+
+    .head{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .head a{
+        display:block;
+        width:100%;
+        padding:12px;
+        text-align:center;
+    }
+
+    #raptor{
+        border-radius:20px;
+        padding:20px;
+    }
+
+    .jam{
+        text-align:center;
+    }
+
+    .jam h2{
+        font-size:30px;
+    }
+
+    .red{
+        font-size:18px;
+    }
+
+    .icons{
+        justify-content:center;
+        font-size:30px;
+    }
+
+    #apple .gold{
+        text-align:center;
+    }
+
+    #apple .gold img{
+         width:220px;
+    max-width:90%;
+    height:auto;
+    display:block;
+    margin:20px auto;
+    }
+
+    .Me{
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+    }
+
+    .html,
+    .css,
+    .js{
+        width:100%;
+        text-align:center;
+    }
+
+    .pro{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .Au,
+    .rbx,
+    .pk{
+        width:95%;
+        padding:20px;
+    }
+
+    .pro img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact{
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+    }
+
+    .footer{
+        font-size:20px;
+        margin-top:60px;
+    }
+
+}
+
+
+/* ==========================================
+   SMALL PHONES (480px)
+========================================== */
+
+@media screen and (max-width:480px){
+
+    .logo{
+        font-size:24px;
+    }
+
+    .head a{
+        font-size:16px;
+        padding:10px;
+    }
+
+    .jam h2{
+        font-size:22px;
+    }
+
+    .red{
+        font-size:16px;
+    }
+
+    .control{
+        padding:12px 20px;
+        font-size:16px;
+    }
+
+    .icons{
+        font-size:26px;
+    }
+
+    #apple .gold h2{
+        font-size:26px;
+    }
+
+    #apple .gold p{
+        font-size:16px;
+    }
+
+    #apple .gold img{
+        width:180px;
+    }
+
+    .stuff h1,
+    #project h1,
+    #contacts h1{
+        font-size:28px;
+    }
+
+    .pro img{
+        width:100%;
+    }
+
+    .Au,
+    .rbx,
+    .pk{
+        width:100%;
+        padding:15px;
+    }
+
+    .footer{
+        font-size:15px;
+        padding:10px;
+    }
+
+}
+
+
+/* ==========================================
+   VERY SMALL DEVICES (320px)
+========================================== */
+
+@media screen and (max-width:320px){
+
+    .logo{
+        font-size:20px;
+    }
+
+    .jam h2{
+        font-size:18px;
+    }
+
+    .red{
+        font-size:14px;
+    }
+
+    .control{
+        width:100%;
+        text-align:center;
+    }
+
+    #apple .gold img{
+        width:140px;
+    }
+
+    .footer{
+        font-size:12px;
+    }
+
+}
